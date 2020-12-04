@@ -18,7 +18,7 @@ const Technologies=()=>{
             data-sal-duration="550"
             data-sal-delay="200"
             data-sal-easing="ease"
-            ><div class="header"></div><p>Determined and productive web developer with a passion for creative solutions.</p><p>Equipped with a diverse and promising skill-set. Proficient in an assortment of technologies, including <span>HTML5</span>, <span>CSS3 (Sass and Less)</span>, <span>JavaScript(ES6), MySQL, React, Redux</span> and <span>React Native</span></p><p>I also have full-stack experience in the <span>MERN stack (MongoDB, Express, React, NodeJs)</span>.</p><p>Other relevant technologies include Data Visualizations with D3, Unit and functional testings with Mocha and Jest, jQuery, relational databases as mySQL.</p></div>
+            ><div class="header"></div><p>I am proficient and able to work with an assortment of technologies, including <span>HTML5,</span> <span>CSS3, Sass,</span> <span>JavaScript(ES6), React, Redux, Next JS</span> and <span>Gatsby JS</span>.</p><p>I also have experience working with the <span>MERN stack (MongoDB, Express, React, NodeJs), Firebase</span> (authentication, database and storage) and relational databases such as <span>Postgresql</span>.</p></div>
              
             {/* <div className='technologies'>
                 <div>HTML5</div>

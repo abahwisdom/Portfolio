@@ -35,7 +35,7 @@ const Intro=()=>{
          data-sal-easing="ease"
 
         >
-        I'm a software engineer based in Boston, MA specializing in building (and occasionally designing) exceptional websites, applications, and everything in between. My goal is to always build products that provide pixel-perfect, performant experiences.
+        I'm a web developer based in Nigeria specializing in building modern efficient websites with perfomant experience. I place value on speed, function and aesthetics and aim to provide distinctive experiences all-round. 
         </p>
         <a className='get-in-touch'
         href="mailto:abahwisdom@gmail.com"

@@ -1,0 +1,36 @@
+.contact-title{
+    font-family: 'Sheila Crayon';
+    text-align: center;
+    font-size: clamp(30px, 5vw, 40px);
+    // font-weight: bold;
+    color: #08b1ff;
+}
+
+.contact{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'No Regrets';
+
+    p{
+        max-width: 560px;
+        text-align: center;
+        margin: 20px auto;
+    }
+}
+
+.contact-social{
+    font-size:22px;
+    // margin-top:30px;
+    margin: 30px auto;
+    width: fit-content;
+
+    svg{
+        margin: 0 10px;
+        color:$my-yellow;
+        cursor: pointer;
+
+        &:hover{
+            color: $my-blue
+        }
+    }
+}

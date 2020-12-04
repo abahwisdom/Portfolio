@@ -1,4 +1,149 @@
+@import "./variables";
+@import "./typography";
+@import "./intro";
+@import "./nav";
+@import "./technologies";
+@import "./work";
+@import "./contact";
+
+
+body{
+  color: #ffffffe8;
+  font-family: 'Fredericka the Great', 'Playfair Display', georgia, serif;
+  background-color: #030019;
+  // background:url('../images/blackboard-2.jpg');
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+  /* overflow-y: scroll; */
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1000px;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+// main{
+//   background: url('https://awv3node-homepage.surge.sh/build/assets/stars.svg');
+// }
+
+.planets {
+  text-align: center;
+  margin: 4rem 0;
+  position: fixed;
+  top: 0;
+  /* left: 29%; */
+  z-index: -2;
+}
+
+.stars{
+  stroke: yellow;
+   stroke-width: 1;
+  animation: twinkle 12s linear infinite;
+}
+
+.star0{
+  @extend .stars;
+  animation-delay: 0s;
+  animation-duration: 6s;
+}
+
+.star1{
+  @extend .stars;
+  animation-delay: 1s;
+  animation-duration: 5s;
+}
+
+.star2{
+  @extend .stars;
+  animation-delay: 2s;
+  animation-duration: 4s;
+}
+
+.star3{
+  @extend .stars;
+  animation-delay: 3s;
+  animation-duration: 3s;
+}
+
+.star4{
+  @extend .stars;
+  animation-delay: 4s;
+  animation-duration: 2s;
+}
+
+.star5{
+  @extend .stars;
+}
+
+@keyframes twinkle {
+  0% {opacity: 1;}
+  50% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@keyframes rotate {
+	0% {transform: rotate(10deg);}
+	50% {transform: rotate(20deg);}	
+	100% {transform: rotate(10deg);}
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+  text-decoration: none;
+  color: white;
+}
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+/* button{
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  padding: 1.25rem 1.75rem;
+  font-size: var(--fz-sm);
+  font-family: var(--font-mono);
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  transition: var(--transition);
+  margin-top: 50px;
+
+} */
+
+/* html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   font: 112.5%/1.45em georgia, serif, sans-serif;
@@ -10,7 +155,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  color: white;
+  font-family: 'Fredericka the Great', 'Playfair Display', georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -18,6 +164,8 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
+
+  background:url('../images/blackboard.jpg')
 }
 article,
 aside,
@@ -593,5 +741,91 @@ pre tt:after {
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
+  }
+} */
+.star {
+  fill: $my-yellow;
+  animation: pulse var(--star-animation-duration, 1000ms) infinite backwards,
+    glowing var(--star-animation-glow-duration, 1000ms) infinite alternate backwards;
+  animation-delay: var(--star-animation-delay, 0);
+}
+
+.star-parallax {
+  transform: translate(0, calc(-1px * var(--translateScrollY) * var(--parallax-intensity, 200) * 1/var(--parallax-depth, 1) ));
+transition: transform .1s;
+will-change: transition;
+}
+
+.shooting-star {
+  fill: $my-yellow;
+  transform-origin: 125px 0;
+  animation: 5s orbitAnimation infinite linear, 5s shootStarGlow infinite;
+}
+
+#svgCanvas {
+  height: 200vh;
+}
+
+
+// body {
+//   margin: 0;
+//   background-color: #202840;
+// }
+
+#btnDebug {
+  position: fixed;
+  z-index:1;
+  top: 10px;
+  left: 10px;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    transform: scale3d(1.2, 1.2, 1.2);
+  }
+
+  70% {
+    transform: scale3d(0.2, 0.2, 0.2);
+  }
+
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes glowing {
+  0% {
+    opacity: var(--star-brightness, 1);
+  }
+
+  100% {
+    opacity: calc(var(--star-brightness, 1) * 0.5);
+  }
+}
+
+@keyframes orbitAnimation {
+  0% {
+    transform: translate(-125px, 0) rotate3d(0, 0, 1, 360deg);
+  }
+  100% {
+    transform: translate(-125px, 0) rotate3d(0, 0, 1, 270deg);
+  }
+}
+
+
+@keyframes shootStarGlow {
+  0% {
+    opacity: 0
+  }
+
+  50%, 50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }

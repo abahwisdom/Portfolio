@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Abah Wisdom`,
+    description: `Portfolio of Abah Wisdom`,
+    author: `Abah Wisdom`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -30,5 +30,28 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-webfonts`,
+      options: {
+        fonts: {
+          google: [
+            {
+              family: "Fredericka the Great",
+              variants: ["400"],
+            },
+            {
+              family: "Playfair Display",
+              variants: ["400", "700"],
+            },
+            {
+              family: "Syne Mono",
+              variants: ["400"],
+            },
+          ],
+        },
+      },
+    },
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-scroll-reveal`,
   ],
 }

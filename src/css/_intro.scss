@@ -1,0 +1,72 @@
+.name-is{
+    margin-bottom: 10px;
+    color: $my-yellow;
+    // font-family: 'Playfair Display';
+    font-family: 'Syne Mono';
+}
+
+.build-things{
+    font-size:clamp(40px, 8vw, 80px);
+    color: $my-blue
+}
+
+.summary{
+    max-width: 888px;
+    line-height: 1.5;
+    margin: 20px 0;
+    // color: $my-red;
+    font-size:17px;
+    // font-family: 'Playfair Display';
+    font-family: 'No Regrets';
+}
+
+.get-in-touch{
+    display: block;
+    width: fit-content;
+    font-size:14px;
+    font-family: 'Syne Mono';
+    cursor: pointer;
+    color: $my-yellow;
+    background-color: transparent;
+    border: 1px solid $my-yellow;
+    border-radius: 5px;
+    padding: 20px 28px;
+    // font-size: var(--fz-sm);
+    // font-family: var(--font-mono);
+    // line-height: 1;
+    text-decoration: none;
+    // cursor: pointer;
+    // transition: var(--transition);
+    margin-top: 30px;
+
+    &:hover{
+      background-color: #002536b0;
+      border: 1px solid #08b1ff;
+      color: #08b1ff;
+    }
+}
+
+.intro-container {
+    padding-top: 125px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .intro-container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .intro-container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .intro-container {
+      width: 1170px;
+    }
+  }
+
+

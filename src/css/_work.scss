@@ -116,8 +116,10 @@
     // color: var(--lightest-slate);
     font-size: clamp(24px, 5vw, 28px);
     // color: $my-blue;
-    font-family: 'Playfair Display';;
+    // font-family: 'Playfair Display';;
+    font-family: 'No Regrets';
     margin: 0 0 20px;
+    font-weight: normal;
 
     @media (max-width: 768px){
         margin: 0 0 10px;
@@ -132,7 +134,7 @@
     padding: 25px;
     border-radius: 4px;
     background-color: #180e63;
-    font-family: 'No Regrets';
+    font-family: 'Playfair Display';
 
     @media (max-width: 768px){
         // background-color: transparent;
@@ -153,6 +155,7 @@
     list-style: none;
     -webkit-box-pack: end;
     justify-content: flex-end;
+    color: $my-blue;
 
     @media (max-width: 768px) {
         margin: 10px 0;

@@ -4,7 +4,7 @@ import {FaTwitter, FaLinkedin, FaGithub, FaMail} from 'react-icons/fa'
 const Contact=()=>{
     return(
         <>
-        <div id='contact' className='container ' style={{marginTop:'120px', marginBottom:'100px'}}>
+        <div id='contact' className='container ' style={{marginTop:'140px', marginBottom:'100px', paddingTop:'40px'}}>
             <div className='contact-title'
             data-sal="fade"
             data-sal-duration="650"

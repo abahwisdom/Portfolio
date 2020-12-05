@@ -1,10 +1,10 @@
 import React from "react"
-import { FaHtml5 } from "react-icons/fa"
+// import { FaHtml5 } from "react-icons/fa"
 
 const Technologies=()=>{
     return(
         <>
-        <div id='skills' className='container ' style={{marginTop:'120px', marginBottom:'100px'}}>
+        <div id='skills' className='container ' style={{marginTop:'40px', marginBottom:'60px', paddingTop:'40px'}}>
             <div className='tech-title' 
             data-sal="slide-up"
             data-sal-duration="650"

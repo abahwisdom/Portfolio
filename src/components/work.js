@@ -44,7 +44,7 @@ const Work=()=>{
 
     return(
         <>
-        <div id='work' className='container 'style={{marginTop:'180px', marginBottom:'180px'}}>
+        <div id='work' className='container 'style={{marginTop:'60px', marginBottom:'60px', paddingTop:'40px'}}>
             <div className='tech-title' 
             data-sal="slide-up"
             data-sal-duration="550"

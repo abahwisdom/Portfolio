@@ -7,7 +7,8 @@
 
 .build-things{
     font-size:clamp(40px, 8vw, 80px);
-    color: $my-blue
+    color: $my-blue;
+    font-family: 'No Regrets';
 }
 
 .summary{
@@ -16,8 +17,8 @@
     margin: 20px 0;
     // color: $my-red;
     font-size:17px;
-    // font-family: 'Playfair Display';
-    font-family: 'No Regrets';
+    font-family: 'Playfair Display';
+    // font-family: 'No Regrets';
 }
 
 .get-in-touch{

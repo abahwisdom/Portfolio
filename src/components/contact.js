@@ -45,7 +45,7 @@ const Contact=()=>{
                 />
             </a>
 
-            <a href='https://linkedin.com/abahwisdom' target="_blank" rel="noopener noreferrer">
+            <a href='https://linkedin.com/in/abahwisdom' target="_blank" rel="noopener noreferrer">
                 <FaLinkedin
                 data-sal="fade"
                 data-sal-duration="550"

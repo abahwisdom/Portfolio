@@ -18,13 +18,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Abah Wisdom's portfolio`,
-        short_name: `Abah`,
+        name: `Abah Wisdom`,
+        short_name: `Abah Wisdom`,
         start_url: `/`,
         background_color: `#021426`,
         theme_color: `#021426`,
         display: `minimal-ui`,
-        icon: `src/images/favicon-32x32.png`, // This path is relative to the root of the site.
+        icon: `src/images/android-chrome-512x512.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

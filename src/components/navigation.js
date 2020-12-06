@@ -61,7 +61,7 @@ const Navigation=()=>{
                 <a className="disc l4" href='#about' onClick={changeMenu} >
                     <div>About</div>
                 </a>
-                <a className="disc l5 toggle" onClick={changeMenu} style={{color:'#030019'}} >
+                <a className="disc l5 toggle" onClick={changeMenu} style={{color:'#021426'}} >
                     {
                         openState==='open' ? <FaTimes/> : <FaHamburger/>
                     }

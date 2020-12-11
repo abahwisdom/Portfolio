@@ -97,7 +97,7 @@ const Work=()=>{
                                 </div>
 
                                 <div className="project-image">
-                                <a href={external ? external : github ? github : '#'}>
+                                <a href={external ? external : github ? github : '#'} target="_blank" rel="noopener noreferrer">
                                     <img alt='' src={image} className="img" target="_blank" rel="noopener noreferrer" />
                                 </a>
                                 </div>

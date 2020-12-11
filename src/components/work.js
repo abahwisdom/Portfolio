@@ -2,7 +2,7 @@ import React from "react"
 import soulmates_image from "../assets/work/Soulmates 1.jpg"
 import blacklife_image from "../assets/work/blacklife1.jpg"
 import collabo_image from "../assets/work/collabo2.jpg"
-import newwws_image from "../assets/work/newwws1.jpg"
+import newwws_image from "../assets/work/newwws2.jpg"
 import {FaGithub, FaExternalLinkAlt} from 'react-icons/fa'
 
 const Work=()=>{

@@ -1,4 +1,5 @@
 import React from "react"
+import pdf from '../assets/resume.pdf'
 // import { FaHtml5 } from "react-icons/fa"
 
 const Technologies=()=>{
@@ -40,6 +41,13 @@ const Technologies=()=>{
             <div className='tech-icons' style={{width:'500px', height:'500px', background:'red'}}>a</div> */}
                
             </div>
+            <a href={pdf} aria-label="Resume" target="_blank" rel="noopener noreferrer" className='get-in-touch' 
+            data-sal="slide-up"
+            data-sal-duration="550"
+            data-sal-delay="200"
+            data-sal-easing="ease" >
+                View Resume
+            </a>
             
             
         </div>

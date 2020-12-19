@@ -18,7 +18,7 @@ const Contact=()=>{
             data-sal-duration="550"
             data-sal-delay="200"
             data-sal-easing="ease"
-            ><p>I'm currently open to freelancing opportunities and actively searching for interesting products ideas to execute. Whether for a potential project or just to say hi, ensure to reach out.</p></div>
+            ><p>I'm currently open to both freelancing and job opportunities and eager to be part of the execution of interesting ideas. Whether for a potential project or just to say hi, feel free to reach out.</p></div>
              
              <a className='get-in-touch'
              href="mailto:abahwisdom@gmail.com"

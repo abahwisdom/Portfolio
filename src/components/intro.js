@@ -35,7 +35,7 @@ const Intro=()=>{
          data-sal-easing="ease"
 
         >
-        I'm a web developer based in Nigeria specializing in building modern efficient websites with perfomant experience. I place value on speed, function and aesthetics and aim to provide distinctive experiences all-round. 
+        I'm a web developer based in Nigeria specializing in building modern efficient websites with performant experience. I place value on speed, function and aesthetics and aim to provide distinctive experiences all-round. 
         </p>
         <a className='get-in-touch'
         href="mailto:abahwisdom@gmail.com"

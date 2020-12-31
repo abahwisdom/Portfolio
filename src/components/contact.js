@@ -11,6 +11,7 @@ const Contact=()=>{
             data-sal-delay="200"
             data-sal-easing="ease"
             > Get In Touch</div>
+            
             <div >
 
             <div class="contact"

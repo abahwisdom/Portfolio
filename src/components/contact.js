@@ -35,7 +35,7 @@ const Contact=()=>{
 
             <div className='contact-social'
         >
-            <a href='https://twitter.com/angelwhizard' target="_blank" rel="noopener noreferrer">
+            <a href='https://twitter.com/_abahwisdom' target="_blank" rel="noopener noreferrer">
                 <FaTwitter
                 data-sal="fade"
                 data-sal-duration="550"

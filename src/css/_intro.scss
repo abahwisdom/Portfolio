@@ -8,7 +8,7 @@
 .build-things{
     font-size:clamp(40px, 8vw, 80px);
     color: $my-blue;
-    font-family: 'No Regrets';
+    font-family: 'Sheila Crayon';
 }
 
 .summary{
@@ -16,8 +16,9 @@
     line-height: 1.5;
     margin: 20px 0;
     // color: $my-red;
-    font-size:17px;
-    font-family: 'Playfair Display';
+    font-size:18px;
+    font-family: 'Nunito','Playfair Display';
+    font-weight: 300;
     // font-family: 'No Regrets';
 }
 
@@ -39,12 +40,11 @@
     // cursor: pointer;
     // transition: var(--transition);
     margin-top: 30px;
+    // transition: all .2s ease-in-out;
 
-    &:hover{
-      background-color: #002536b0;
-      border: 1px solid #08b1ff;
-      color: #08b1ff;
-    }
+    // &:hover{
+      
+    // }
 }
 
 .intro-container {

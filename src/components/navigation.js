@@ -32,7 +32,7 @@ const Navigation=()=>{
                 <li data-sal="slide-down"
                     data-sal-duration="350"
                     data-sal-delay="200"
-                    data-sal-easing="ease"  > <a href='#skills'> <span>ii.</span> Skills</a></li>
+                    data-sal-easing="ease"  > <a href='#skills'> <span>ii.</span> Tech</a></li>
                 <li data-sal="slide-down"
                     data-sal-duration="350"
                     data-sal-delay="300"
@@ -56,7 +56,7 @@ const Navigation=()=>{
                     <div>Work</div>
                 </a>
                 <a className="disc l3" href='#skills' onClick={changeMenu} >
-                    <div>Skills</div>
+                    <div>Tech</div>
                 </a>
                 <a className="disc l4" href='#about' onClick={changeMenu} >
                     <div>About</div>

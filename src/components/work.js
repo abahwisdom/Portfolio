@@ -50,7 +50,7 @@ const Work=()=>{
             data-sal-duration="550"
             data-sal-delay="100"
             data-sal-easing="ease"
-            > Some things I've built</div>
+            > Featured Projects</div>
             <div >
 
             <div class="work"

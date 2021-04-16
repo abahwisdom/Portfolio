@@ -27,7 +27,7 @@ const Contact=()=>{
         
             data-sal="fade"
             data-sal-duration="550"
-            data-sal-delay="200"
+            data-sal-delay="100"
             data-sal-easing="ease"
 
             >
@@ -36,7 +36,7 @@ const Contact=()=>{
 
             <div className='contact-social'
         >
-            <a href='https://twitter.com/_abahwisdom' target="_blank" rel="noopener noreferrer">
+            {/* <a href='https://twitter.com/_abahwisdom' target="_blank" rel="noopener noreferrer">
                 <FaTwitter
                 data-sal="fade"
                 data-sal-duration="550"
@@ -44,7 +44,7 @@ const Contact=()=>{
                 data-sal-easing="ease"
                 
                 />
-            </a>
+            </a> */}
 
             <a href='https://linkedin.com/in/abahwisdom' target="_blank" rel="noopener noreferrer">
                 <FaLinkedin

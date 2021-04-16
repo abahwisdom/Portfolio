@@ -11,7 +11,7 @@ const Technologies=()=>{
             data-sal-duration="650"
             data-sal-delay="200"
             data-sal-easing="ease"
-            > My Skills</div>
+            > Technologies I work with</div>
             <div >
 
             <div class="technologies"

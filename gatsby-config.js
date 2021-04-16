@@ -47,6 +47,10 @@ module.exports = {
               family: "Syne Mono",
               variants: ["400"],
             },
+            {
+              family: "Nunito",
+              variants: ["200, 300, 400"],
+            },
           ],
         },
       },

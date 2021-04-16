@@ -5,7 +5,7 @@
     -webkit-box-align: center;
     align-items: center;
     width: 100%;
-    margin: 50px 0;
+    margin: 20px 0 70px 0;
 
     @media (max-width:768px) {
         grid-template-columns: auto;
@@ -40,6 +40,11 @@
     grid-column: 1/8;
     width: 100%;
     position: relative;
+    transition: all .5s ease-in-out;
+
+    &:hover{
+        transform: scale(1.1)
+    }
 
     @media (max-width:768px) {
         grid-column: 1 / -1;
@@ -87,14 +92,14 @@
     border-radius: 4px;
     mix-blend-mode: multiply;
     // filter: grayscale(100%) contrast(1) brightness(90%);
-    filter: brightness(0.9);
+    filter: brightness(0.7) blur(1px);
 
     @media (max-width:768px) {
         object-fit: cover;
         // width: auto;
         // height: 100%;
         // filter: none;
-        // filter: grayscale(100%) contrast(1) brightness(80%);
+        filter: none;
 
         
     }
@@ -117,9 +122,8 @@
     font-size: clamp(24px, 5vw, 28px);
     // color: $my-blue;
     // font-family: 'Playfair Display';;
-    font-family: 'No Regrets';
+    font-family: 'Playfair Display';
     margin: 0 0 20px;
-    font-weight: normal;
 
     @media (max-width: 768px){
         margin: 0 0 10px;
@@ -133,8 +137,11 @@
     z-index: 2;
     padding: 25px;
     border-radius: 4px;
-    background-color: #180e63;
-    font-family: 'Playfair Display';
+    background-color: #021426;
+    color: aqua;
+    // font-family: 'Playfair Display';
+    font-family: 'Nunito','Playfair Display';
+    font-weight: 300;
 
     @media (max-width: 768px){
         // background-color: transparent;
@@ -167,7 +174,7 @@
         font-family: 'Syne Mono';
         // font-size: var(--fz-xs);
         white-space: nowrap;
-        background: $back-black;
+        background: #000;
         padding: 5px;
         border-radius: 4px;
 

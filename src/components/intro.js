@@ -20,13 +20,13 @@ const Intro=()=>{
         data-sal-delay="600"
         data-sal-easing="ease"
         
-        style={{fontSize:'clamp(40px, 8vw, 80px)', marginBottom:'10px'}} >Abah Wisdom</div>
+        style={{fontSize:'clamp(40px, 8vw, 80px)'}} >Abah Wisdom</div>
         <div className='build-things' 
        data-sal="slide-up"
        data-sal-duration="550"
        data-sal-delay="700"
        data-sal-easing="ease" >
-            I build things for the web.
+            I am a software developer
         </div>
         <p className='summary'
          data-sal="slide-up"
@@ -35,12 +35,12 @@ const Intro=()=>{
          data-sal-easing="ease"
 
         >
-        I'm a web developer based in Nigeria specializing in building modern efficient websites with performant experience. I place value on speed, function and aesthetics and aim to provide distinctive experiences all-round. 
+        I'm a software developer based in Nigeria currently specializing in building modern efficient websites with performant experience. I place value on speed, function and aesthetics and aim to provide distinctive experiences all-round. 
         </p>
         <a className='get-in-touch'
         href="mailto:abahwisdom@gmail.com"
         data-sal="fade"
-        data-sal-duration="550"
+        data-sal-duration="900"
         data-sal-delay="900"
         data-sal-easing="ease"
 

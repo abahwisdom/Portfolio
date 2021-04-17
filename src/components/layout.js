@@ -44,6 +44,8 @@ const Layout = ({ children }) => {
       <Navigation display={stillLoading?'none':'block'}/>
       <div className='cheat1'>Abah</div>
       <div className='cheat2'>Wisdom</div>
+      <div className='cheat3'>Software</div>
+      <div className='cheat4'>Developer</div>
       <div className="loader fade-out" style={{
           // display: stillLoading?'block':'none'
           }}

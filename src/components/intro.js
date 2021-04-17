@@ -12,20 +12,20 @@ const Intro=()=>{
         data-sal="fade"
         data-sal-duration="950"
         data-sal-delay="500"
-        data-sal-easing="ease" >Hi, My name is</div>
+        data-sal-easing="ease" >Hello.</div>
         <div 
         data-sal="fade"
         data-sal-duration="950"
         data-sal-delay="600"
         data-sal-easing="ease"
         
-        style={{fontSize:'clamp(40px, 8vw, 80px)'}} >Abah Wisdom</div>
+        style={{fontSize:'clamp(38px, 8vw, 80px)'}} >Abah Wisdom</div>
         <div className='build-things' 
        data-sal="fade"
        data-sal-duration="950"
        data-sal-delay="700"
        data-sal-easing="ease" >
-            I am a software developer
+            Software developer
         </div>
         <p className='summary'
          data-sal="fade"

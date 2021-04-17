@@ -22,7 +22,7 @@ nav {
 	transform: translate3d($size*.5,-$size*.5,0);
 	transition: transform $transition $bounce;
 	pointer-events: none;
-	font-family: 'No Regrets';
+	font-family: 'Sheila Crayon';
 	
 	&.open {
 		transform: translate3d(0,0,0);
@@ -35,7 +35,7 @@ nav {
 		right:-204px;
 		z-index: 9;
 	}
-	font-weight: 400;
+	font-weight: 100;
 }
 
 .disc {	

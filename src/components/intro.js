@@ -1,5 +1,4 @@
 import React from "react"
-import {FiTwitter, FiLinkedin, FiGithub, FiMail} from 'react-icons/fi'
 
 
 const Intro=()=>{
@@ -10,27 +9,27 @@ const Intro=()=>{
         }}
         className='intro-container'>
         <div className='name-is'
-        data-sal="slide-up"
-        data-sal-duration="550"
+        data-sal="fade"
+        data-sal-duration="950"
         data-sal-delay="500"
         data-sal-easing="ease" >Hi, My name is</div>
         <div 
-        data-sal="slide-up"
-        data-sal-duration="550"
+        data-sal="fade"
+        data-sal-duration="950"
         data-sal-delay="600"
         data-sal-easing="ease"
         
         style={{fontSize:'clamp(40px, 8vw, 80px)'}} >Abah Wisdom</div>
         <div className='build-things' 
-       data-sal="slide-up"
-       data-sal-duration="550"
+       data-sal="fade"
+       data-sal-duration="950"
        data-sal-delay="700"
        data-sal-easing="ease" >
             I am a software developer
         </div>
         <p className='summary'
-         data-sal="slide-up"
-         data-sal-duration="550"
+         data-sal="fade"
+         data-sal-duration="950"
          data-sal-delay="800"
          data-sal-easing="ease"
 
@@ -51,26 +50,26 @@ const Intro=()=>{
         >
             <FiTwitter
             data-sal="fade"
-            data-sal-duration="550"
+            data-sal-duration="950"
             data-sal-delay="900"
             data-sal-easing="ease"
             
             />
             <FiLinkedin
             data-sal="fade"
-            data-sal-duration="550"
+            data-sal-duration="950"
             data-sal-delay="1000"
             data-sal-easing="ease"
             />
             <FiGithub
             data-sal="fade"
-            data-sal-duration="550"
+            data-sal-duration="950"
             data-sal-delay="1000"
             data-sal-easing="ease"
             />
             <FiMail
             data-sal="fade"
-            data-sal-duration="550"
+            data-sal-duration="950"
             data-sal-delay="1000"
             data-sal-easing="ease"
             /> 

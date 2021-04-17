@@ -46,7 +46,7 @@ const Work=()=>{
         <>
         <div id='work' className='container 'style={{marginTop:'60px', marginBottom:'60px', paddingTop:'40px'}}>
             <div className='tech-title' 
-            data-sal="slide-up"
+            data-sal="fade"
             data-sal-duration="550"
             data-sal-delay="100"
             data-sal-easing="ease"
@@ -54,7 +54,7 @@ const Work=()=>{
             <div >
 
             <div class="work"
-            // data-sal="slide-up"
+            // data-sal="fade"
             // data-sal-duration="550"
             // data-sal-delay="100"
             // data-sal-easing="ease"
@@ -65,9 +65,9 @@ const Work=()=>{
                         return(
                             <>
                             <div className='project-contain'
-                            data-sal="slide-up"
+                            data-sal="fade"
                             data-sal-duration="550"
-                            data-sal-delay="100"
+                            data-sal-delay="0"
                             data-sal-easing="ease" >
                             <div className="project-content">
                                 {/* <p className="project-overline">Featured Project</p> */}

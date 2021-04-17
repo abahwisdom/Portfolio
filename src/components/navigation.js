@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { FaTimes, FaHamburger } from 'react-icons/fa';
 
-const Navigation=()=>{
+const Navigation=({display})=>{
 
     const [openState, setOpenState]= useState('closed');
     const [visibility, setVisibility] = useState('show');
@@ -22,32 +22,29 @@ const Navigation=()=>{
          style={{
             position:'absolute',
             right:'50px',
-            top: '35px'
+            top: '35px',
+            display:display
         }}>
            <ol className='list-nav' style={{visibility:visibility}} >
                 <li data-sal="slide-down"
-                    data-sal-duration="350"
-                    data-sal-delay="100"
+                    data-sal-duration="550"
+                    data-sal-delay="200"
                     data-sal-easing="ease"  > <a href='#about'> <span>i.</span> About</a></li>
                 <li data-sal="slide-down"
-                    data-sal-duration="350"
-                    data-sal-delay="200"
+                    data-sal-duration="550"
+                    data-sal-delay="400"
                     data-sal-easing="ease"  > <a href='#skills'> <span>ii.</span> Tech</a></li>
                 <li data-sal="slide-down"
-                    data-sal-duration="350"
-                    data-sal-delay="300"
+                    data-sal-duration="550"
+                    data-sal-delay="600"
                     data-sal-easing="ease"  > <a href='#work'> <span>iii.</span> Work</a></li>
                 <li data-sal="slide-down"
-                    data-sal-duration="350"
-                    data-sal-delay="400"
+                    data-sal-duration="550"
+                    data-sal-delay="800"
                     data-sal-easing="ease"  ><a href='#contact'><span>iv.</span> Contact</a>  </li>
             </ol> 
             <div>
             <nav className={`top-right ${openState}`}
-            // data-sal="fade"
-            // data-sal-duration="350"
-            // data-sal-delay="100"
-            // data-sal-easing="ease"
             >
                 <a className="disc l1" href='#contact' onClick={changeMenu} >
                     <div>Contact</div>

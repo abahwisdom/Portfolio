@@ -5,7 +5,7 @@
  * See: https://www.gatsbyjs.com/docs/use-static-query/
  */
 
-import React, { useEffect } from "react"
+import React, { useEffect, useState } from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
@@ -13,6 +13,7 @@ import Header from "./header"
 import "../css/layout.scss"
 import Navigation from "./navigation"
 import { loadStars } from "../assets/universe"
+// import {loader} from "../assets/loader"
 
 if (typeof window !== "undefined") {
   // eslint-disable-next-line global-require
@@ -23,6 +24,7 @@ const Layout = ({ children }) => {
 
   useEffect(()=>{
     loadStars();
+    setTimeout(()=>setLoading(false), 1500);
   },[])
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -33,12 +35,36 @@ const Layout = ({ children }) => {
       }
     }
   `)
+  const [stillLoading, setLoading]= useState(true);
 
   return (
     <>
+    
       {/* <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> */}
-      <Navigation/>
-      
+      <Navigation display={stillLoading?'none':'block'}/>
+      <div className='cheat1'>Abah</div>
+      <div className='cheat2'>Wisdom</div>
+      <div className="loader fade-out" style={{
+          // display: stillLoading?'block':'none'
+          }}
+         
+          >
+        <div className="inner one"
+         data-sal="fade"
+         data-sal-duration="550"
+         data-sal-delay="100"
+         data-sal-easing="ease"></div>
+        <div className="inner two"
+        data-sal="fade"
+        data-sal-duration="550"
+        data-sal-delay="250"
+        data-sal-easing="ease"></div>
+        <div className="inner three"
+        data-sal="fade"
+        data-sal-duration="550"
+        data-sal-delay="400"
+        data-sal-easing="ease"></div>
+      </div>
       {/* <div
         style={{
           margin: `120px auto 0 auto `,
@@ -50,12 +76,12 @@ const Layout = ({ children }) => {
         // padding:'95px 25px 0 25px',
         // padding: '0 20px'
       }} >
-
         <main style={{
           margin:'auto',
           maxWidth: 1000,
+          display: stillLoading?'none':'block'
           }}>{children}
-        </main>
+        </main> 
         {/* <div class="planets"
         data-sal="fade"
         data-sal-duration="550"
@@ -86,6 +112,7 @@ const Layout = ({ children }) => {
           {/* </g>
         </svg> */}
       {/* </div> */}
+      
       <svg id="svgCanvas" style={{position:'fixed', top:'0', zIndex:'-3'}} viewbox="0 0 2000 1000" preserveaspectratio="xMinYMin slice" width="100%"  >
   <g id="starGroup"></g>
 

@@ -43,12 +43,15 @@
     transition: all .5s ease-in-out;
 
     &:hover{
-        transform: scale(1.1)
+        transform: scale(1.05)
     }
 
     @media (max-width:768px) {
         grid-column: 1 / -1;
         // padding: 40px 40px 30px;
+        &:hover{
+            transform: scale(1)
+        }
     }
 
 
@@ -92,7 +95,7 @@
     border-radius: 4px;
     mix-blend-mode: multiply;
     // filter: grayscale(100%) contrast(1) brightness(90%);
-    filter: brightness(0.7) blur(1px);
+    filter: brightness(0.9) blur(0.5px);
 
     @media (max-width:768px) {
         object-fit: cover;

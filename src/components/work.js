@@ -1,6 +1,6 @@
 import React from "react"
 import soulmates_image from "../assets/work/Soulmates 1.jpg"
-import blacklife_image from "../assets/work/blacklife2.jpg"
+import blacklife_image from "../assets/work/blacklife2.png"
 import collabo_image from "../assets/work/collabo3.jpg"
 import newwws_image from "../assets/work/newwws3.jpg"
 import {FaGithub, FaExternalLinkAlt} from 'react-icons/fa'

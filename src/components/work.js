@@ -3,6 +3,7 @@ import soulmates_image from "../assets/work/Soulmates2.png"
 import blacklife_image from "../assets/work/blacklife2.png"
 import collabo_image from "../assets/work/collabo3.jpg"
 import newwws_image from "../assets/work/newwws3.jpg"
+import timetrackr_image from "../assets/work/timetrackr1.png"
 import {FaGithub, FaExternalLinkAlt} from 'react-icons/fa'
 
 const Work=()=>{
@@ -19,7 +20,7 @@ const Work=()=>{
         {
             title:'Blacklife',
             image: blacklife_image,
-            description:`A fullstack e-commerce web app equipped. Browse through black fashion collections and place an order. Also equiped with admin route behind authentication protection for adding and editing of products and collections. `,
+            description:`A fullstack e-commerce web app. Browse through black fashion collections and place an order. Also equiped with admin route behind authentication protection for adding and editing of products and collections. `,
             external:'https://blacklife.herokuapp.com',
             github:'https://github.com/abahwisdom/blacklife',
             tech:['React', 'Node JS', 'Express JS', 'Postgresql']
@@ -39,6 +40,14 @@ const Work=()=>{
             external:'https://newwws-app.herokuapp.com',
             github:'https://github.com/abahwisdom/newwws',
             tech:['React', 'Next JS', 'REST API']
+        },
+        {
+            title:'TimeTrackr',
+            image: timetrackr_image,
+            description:`A web application for tracking time spent for different activities. Keeps record of total time ever spent and time of current sessions.`,
+            external:'https://timetrackrr.netlify.app',
+            github:'https://github.com/abahwisdom/time-tracker',
+            tech:['Typescript', 'React']
         }
     ]
 

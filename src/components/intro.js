@@ -12,7 +12,7 @@ const Intro=()=>{
         data-sal="fade"
         data-sal-duration="950"
         data-sal-delay="500"
-        data-sal-easing="ease" >Hello.</div>
+        data-sal-easing="ease" >Hello. I am...</div>
         <div 
         data-sal="fade"
         data-sal-duration="950"

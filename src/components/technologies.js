@@ -19,7 +19,7 @@ const Technologies=()=>{
             data-sal-duration="550"
             data-sal-delay="200"
             data-sal-easing="ease"
-            ><div class="header"></div><p>I am proficient and able to work with an assortment of technologies, including <span>HTML5,</span> <span>CSS3, Sass,</span> <span>JavaScript(ES6), React, Redux, Next JS</span> and <span>Gatsby JS</span>.</p><p>I also have experience working with the <span>MERN stack (MongoDB, Express, React, NodeJs), Firebase</span> (authentication, database and storage) and relational databases such as <span>Postgresql</span>.</p></div>
+            ><div class="header"></div><p>I am proficient and able to work with an assortment of technologies, including <span>HTML5,</span> <span>CSS3, Sass,</span> <span>JavaScript(ES6), Typescript, React, Redux, Next JS</span> and <span>Gatsby JS</span>.</p><p>I also have experience working with the <span>MERN stack (MongoDB, Express, React, NodeJs), Firebase</span> (authentication, database and storage) and relational databases such as <span>Postgresql</span>.</p></div>
              
             {/* <div className='technologies'>
                 <div>HTML5</div>

@@ -44,7 +44,7 @@ const Work=()=>{
         {
             title:'TimeTrackr',
             image: timetrackr_image,
-            description:`A web application for tracking time spent for different activities. Keeps record of total time ever spent and time of current sessions.`,
+            description:`A web application for tracking time spent on different activities. Keeps record of total time ever spent and time of current sessions.`,
             external:'https://timetrackrr.netlify.app',
             github:'https://github.com/abahwisdom/time-tracker',
             tech:['Typescript', 'React']

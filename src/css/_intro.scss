@@ -82,6 +82,10 @@
   @media (min-width: 768px) {
     .intro-container {
       width: 750px;
+    }
+  }
+  @media (max-width: 768px) {
+    .intro-container {
       height: auto;
     }
   }

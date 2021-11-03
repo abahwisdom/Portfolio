@@ -76,10 +76,13 @@
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    height: 100vh;
+    
   }
   @media (min-width: 768px) {
     .intro-container {
       width: 750px;
+      height: auto;
     }
   }
   @media (min-width: 992px) {

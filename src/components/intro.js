@@ -4,9 +4,7 @@ import React from "react"
 const Intro=()=>{
     return(
         <>
-        <div id='about' style={{
-            height: '100vh',
-        }}
+        <div id='about' 
         className='intro-container'>
         <div className='name-is'
         data-sal="fade"

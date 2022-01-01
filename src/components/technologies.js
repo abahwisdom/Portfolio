@@ -1,6 +1,5 @@
 import React from "react"
 import pdf from '../assets/resume.pdf'
-// import { FaHtml5 } from "react-icons/fa"
 
 const Technologies=()=>{
     return(

@@ -22,7 +22,7 @@ nav {
 	transform: translate3d($size*.5,-$size*.5,0);
 	transition: transform $transition $bounce;
 	pointer-events: none;
-	font-family: 'No Regrets';
+	font-family: 'Syne Mono';
 	
 	&.open {
 		transform: translate3d(0,0,0);
@@ -158,7 +158,7 @@ nav {
 		min-width: 400px;
 		color:white;
 		list-style:none;
-		font-family: 'No Regrets';
+		font-family: 'Syne Mono';
 		// background: url('../images/blackboard-2.jpg');
 
 		li{

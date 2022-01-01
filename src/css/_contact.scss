@@ -1,7 +1,7 @@
 .contact-title{
-    font-family: 'Sheila Crayon';
+    font-family: 'DM Serif Display';
     text-align: center;
-    font-size: clamp(30px, 5vw, 40px);
+    font-size: clamp(16px, 2.2vw, 40px);
     // font-weight: bold;
     color: #08b1ff;
 }
@@ -9,13 +9,19 @@
 .contact{
     font-size: 20px;
     text-align: center;
-    font-family: 'Playfair Display';
+    font-family: 'Nunito';
+    font-size: clamp(12px, 1.4vw, 24px);
+    font-weight: 300;
 
     p{
         max-width: 560px;
         text-align: center;
-        margin: 20px auto;
+        margin: 10px auto;
     }
+}
+
+#contact{
+    padding-top:40px;
 }
 
 .contact-social{
@@ -34,3 +40,9 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    #contact {
+      padding-top: 0;
+    }
+  }

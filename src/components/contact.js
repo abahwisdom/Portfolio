@@ -1,10 +1,9 @@
 import React from "react"
-import {FaTwitter, FaLinkedin, FaGithub, FaMail} from 'react-icons/fa'
 
 const Contact=()=>{
     return(
         <>
-        <div id='contact' className='container ' style={{marginTop:'140px', marginBottom:'100px', paddingTop:'40px'}}>
+        <div id='contact' className='container ' style={{marginBottom:'40px'}}>
             <div className='contact-title'
             data-sal="fade"
             data-sal-duration="650"
@@ -46,7 +45,7 @@ const Contact=()=>{
                 />
             </a> */}
 
-            <a href='https://linkedin.com/in/abahwisdom' target="_blank" rel="noopener noreferrer">
+            {/* <a href='https://linkedin.com/in/abahwisdom' target="_blank" rel="noopener noreferrer">
                 <FaLinkedin
                 data-sal="fade"
                 data-sal-duration="550"
@@ -62,7 +61,7 @@ const Contact=()=>{
                 data-sal-delay="1000"
                 data-sal-easing="ease"
                 />  
-            </a>
+            </a> */}
             
 
             

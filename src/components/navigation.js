@@ -21,8 +21,8 @@ const Navigation=({display})=>{
         <div 
          style={{
             position:'absolute',
-            right:'50px',
-            top: '35px',
+            right:'100px',
+            top: '80px',
             display:display
         }}>
            <ol className='list-nav' style={{visibility:visibility}} >
@@ -58,7 +58,7 @@ const Navigation=({display})=>{
                 <a className="disc l4" href='#about' onClick={changeMenu} >
                     <div>About</div>
                 </a>
-                <a className="disc l5 toggle fade-in" onClick={changeMenu} style={{color:'#021426'}} 
+                <a className="disc l5 toggle fade-in" href='#' onClick={changeMenu} style={{color:'#021426'}} 
                 >
                     {
                         openState==='open' ? <FaTimes/> : <FaHamburger/>

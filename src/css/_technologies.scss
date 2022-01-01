@@ -1,38 +1,15 @@
 .technologies{
-    // display: grid;
-    max-width:1000px;
-    // gap: 10px;
-    // grid-template-columns: repeat( auto-fit, minmax(150px, 1fr) );
-    // padding: 20px 0;
-    // margin: auto;
-    // height: 60vh;
-    // font-family: 'No Regrets';
-    // font-family: 'Playfair Display';
     font-family: 'Nunito','Playfair Display';
     font-weight: 300;
-    font-size: 17px;
+    font-size: clamp(12px, 1.4vw, 30px);
 
     span{
         color:$my-yellow
     }
 
-    
-
-    // div::before {
-    //     content: "▹";
-    //     color:$my-yellow
-    //   }
 }
 
 .tech-title{
-    font-size: 30px;
-    max-width:500px;
-    // margin: auto;
-    // color:$my-blue;
-    // font-family: 'No Regrets';
-    font-family: 'Sheila Crayon';
-    // font-family: 'Playfair Display';
-    // font-weight: bold;
-
-    // text-align: center;
+    font-size: clamp(16px, 1.6vw, 30px);
+    font-family: 'DM Serif Display';
 }

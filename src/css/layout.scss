@@ -8,8 +8,8 @@
 
 
 body{
-  color: #ffffffe8;
-  font-family: 'No Regrets', 'Playfair Display', serif;
+  color: #ffffff;
+  font-family: 'Nunito', 'Playfair Display', serif;
   background: #000;
   // background-color: #030019;
   // background:url('../images/blackboard-2.jpg');
@@ -29,32 +29,16 @@ html {
   box-sizing: border-box;
 }
 
-.container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 1000px;
+
+main{
+  margin:0 100px
 }
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
+@media(max-width:900px){
+    main{
+      margin:0 20px
+    }
 }
 
-// main{
-//   background: url('https://awv3node-homepage.surge.sh/build/assets/stars.svg');
-// }
 
 .planets {
   text-align: center;
@@ -360,25 +344,3 @@ will-change: transition;
 }
 
 
-.cheat1{
-  font-family: 'Sheila Crayon';
-  visibility: hidden;
-  position: absolute;
-}
-.cheat2{
-  font-family: 'No Regrets';
-  visibility: hidden;
-  position: absolute;
-}
-
-.cheat3{
-  font-family: 'Nunito';
-  visibility: hidden;
-  position: absolute;
-}
-
-.cheat4{
-  font-family: 'Playfair Display';
-  visibility: hidden;
-  position: absolute;
-}

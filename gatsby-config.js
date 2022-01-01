@@ -51,6 +51,14 @@ module.exports = {
               family: "Nunito",
               variants: ["200, 300, 400"],
             },
+            {
+              family: "Inter",
+              variants: ["400"],
+            },
+            {
+              family: "DM Serif Display",
+              variants: ["400"],
+            }
           ],
         },
       },

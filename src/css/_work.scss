@@ -121,11 +121,12 @@
 
 .project-title {
     // color: var(--lightest-slate);
-    font-size: clamp(24px, 5vw, 28px);
+    font-size: clamp(14px, 2.2vw, 40px);
     // color: $my-blue;
     // font-family: 'Playfair Display';;
-    font-family: 'Playfair Display';
+    font-family: 'DM Serif Display';
     margin: 0 0 20px;
+    font-weight: 300;
 
     @media (max-width: 768px){
         margin: 0 0 10px;
@@ -144,14 +145,11 @@
     // font-family: 'Playfair Display';
     font-family: 'Nunito','Playfair Display';
     font-weight: 300;
+    font-size:clamp(12px, 1.3vw, 30px);
 
     @media (max-width: 768px){
-        // background-color: transparent;
         padding: 15px;
     }
-    // color: $back-black;
-    // font-weight: bold;
-    // font-size: var(--fz-lg);
 }
 
 .project-tech-list {
@@ -182,6 +180,7 @@
 
         @media (max-width: 768px) {
             margin: 0px 0px 5px 10px;
+            font-size:10px
         }
     }
 }

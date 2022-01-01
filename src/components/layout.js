@@ -7,9 +7,7 @@
 
 import React, { useEffect, useState } from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
 import "../css/layout.scss"
 import Navigation from "./navigation"
 import { loadStars } from "../assets/universe"
@@ -26,15 +24,15 @@ const Layout = ({ children }) => {
     loadStars();
     setTimeout(()=>setLoading(false), 1000);
   },[])
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
+  // const data = useStaticQuery(graphql`
+  //   query SiteTitleQuery {
+  //     site {
+  //       siteMetadata {
+  //         title
+  //       }
+  //     }
+  //   }
+  // `)
   const [stillLoading, setLoading]= useState(true);
 
   return (
@@ -42,10 +40,6 @@ const Layout = ({ children }) => {
     
       {/* <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> */}
       <Navigation display={stillLoading?'none':'block'}/>
-      <div className='cheat1'>Abah</div>
-      <div className='cheat2'>Wisdom</div>
-      <div className='cheat3'>Software</div>
-      <div className='cheat4'>Developer</div>
       <div className="loader fade-out" style={{
           // display: stillLoading?'block':'none'
           }}
@@ -79,8 +73,6 @@ const Layout = ({ children }) => {
         // padding: '0 20px'
       }} >
         <main style={{
-          margin:'auto',
-          maxWidth: 1000,
           display: stillLoading?'none':'block'
           }}>{children}
         </main> 

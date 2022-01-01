@@ -1,22 +1,28 @@
+.intro-container{
+  display: flex;
+  align-items: center;;
+}
+
 .name-is{
     margin-bottom: 10px;
     color: $my-yellow;
     // font-family: 'Playfair Display';
     font-family: 'Syne Mono';
+    font-size: 12px;
 }
 
-.build-things{
-    font-size:clamp(38px, 8vw, 80px);
-    color: $my-blue;
-    font-family: 'No Regrets';
+.build-things, .intro-name{
+    font-size:clamp(30px, 4.5vw, 100px);
+    color: #fff;
+    font-family: 'DM Serif Display';
 }
 
 .summary{
-    max-width: 888px;
+    width: 80%;
     line-height: 1.5;
-    margin: 20px 0;
+    // margin: 20px 0;
     // color: $my-red;
-    font-size:18px;
+    font-size:clamp(12px, 1.6vw, 30px);
     font-family: 'Nunito','Playfair Display';
     font-weight: 300;
     // font-family: 'No Regrets';
@@ -25,21 +31,18 @@
 .get-in-touch{
     display: block;
     width: fit-content;
-    font-size:14px;
+    font-size:16px;
     font-family: 'Syne Mono';
     cursor: pointer;
     color: $my-yellow;
     background-color: transparent;
     border: 1px solid $my-yellow;
-    border-radius: 5px;
+    border-radius: 4px;
     padding: 20px 28px;
-    // font-size: var(--fz-sm);
-    // font-family: var(--font-mono);
-    // line-height: 1;
     text-decoration: none;
     // cursor: pointer;
     // transition: var(--transition);
-    margin-top: 30px;
+    margin-top: 10px;
     // transition: all .2s ease-in-out;
     
     &:hover {
@@ -47,6 +50,8 @@
       transform: translate3d(0, 0, 0);
       backface-visibility: hidden;
       perspective: 1000px;
+      border-color: $my-blue;
+      color: $my-blue;
     }
 }
 
@@ -71,33 +76,25 @@
 }
 
 .intro-container {
-    padding-top: 125px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
     height: 100vh;
     
   }
-  @media (min-width: 768px) {
-    .intro-container {
-      width: 750px;
-    }
-  }
+
   @media (max-width: 768px) {
     .intro-container {
       height: auto;
     }
   }
-  @media (min-width: 992px) {
-    .intro-container {
-      width: 970px;
+  @media (max-width: 768px){
+    .intro-container{
+      padding-top: 105px;
+    }
+    .summary{
+      width:auto;
+    }
+    .get-in-touch{
+      font-size: 10px;
+      padding: 12px 16px;
     }
   }
-  @media (min-width: 1200px) {
-    .intro-container {
-      width: 1170px;
-    }
-  }
-
 

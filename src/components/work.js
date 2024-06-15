@@ -21,7 +21,7 @@ const Work=()=>{
             title:'Blacklife',
             image: blacklife_image,
             description:`A fullstack e-commerce web app. Browse through black fashion collections and place an order. Also equiped with admin route behind authentication protection for adding and editing of products and collections. `,
-            external:'https://blacklife.herokuapp.com',
+            external:'https://blacklife.onrender.com',
             github:'https://github.com/abahwisdom/blacklife',
             tech:['React', 'Node JS', 'Express JS', 'Postgresql']
         },

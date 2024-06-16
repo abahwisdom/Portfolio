@@ -29,7 +29,7 @@ const Work=()=>{
             title:'Collabo',
             image: collabo_image,
             description:`A MERN stack web app for tracking progress on collaborative and personal projects. Create projects, create tasks, add members and assign tasks to members.  `,
-            external:'https://collabo-mern.herokuapp.com',
+            external:'https://collabo-c4yi.onrender.com',
             github:'https://github.com/abahwisdom/collabo',
             tech:['React', 'Node JS', 'Express JS', 'MongoDB']
         },
